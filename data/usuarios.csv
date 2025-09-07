@@ -1,0 +1,6 @@
+id_usuario,nome,email,senha_hash,cargo
+1,João Silva,joao.silva@hermesreply.com,hash123,Técnico
+2,Maria Santos,maria.santos@hermesreply.com,hash456,Engenheiro
+3,Pedro Costa,pedro.costa@hermesreply.com,hash789,Supervisor
+4,Ana Oliveira,ana.oliveira@hermesreply.com,hash101,Gerente
+5,Carlos Ferreira,carlos.ferreira@hermesreply.com,hash202,Técnico
