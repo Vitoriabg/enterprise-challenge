@@ -1,8 +1,0 @@
-id_ordem,id_alerta,id_usuario,data_criacao,data_conclusao,status,descricao_servico
-1,4,2,2025-08-28 02:07:03,2025-08-30 02:07:03,Concluída,Manutenção preventiva/corretiva para resolver: Valor anômalo detectado no sensor umidade
-2,10,5,2025-08-25 07:07:03,,Aberta,Manutenção preventiva/corretiva para resolver: Pressão anormal - 30 bar
-3,3,4,2025-08-25 14:07:03,,Em Andamento,Manutenção preventiva/corretiva para resolver: Pressão anormal - 26 bar
-4,7,1,2025-08-24 21:07:03,,Aberta,Manutenção preventiva/corretiva para resolver: Pressão anormal - 21 bar
-5,11,3,2025-08-22 22:07:03,,Em Andamento,Manutenção preventiva/corretiva para resolver: Pressão anormal - 25 bar
-6,13,3,2025-09-06 02:07:03,,Aberta,Manutenção preventiva/corretiva para resolver: Vibração excessiva - 18 mm/s
-7,1,5,2025-09-01 11:07:03,2025-09-04 11:07:03,Concluída,Manutenção preventiva/corretiva para resolver: Valor anômalo detectado no sensor potência
