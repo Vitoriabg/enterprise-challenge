@@ -50,15 +50,6 @@ Esses arquivos contêm a **estrutura completa do banco de dados**, incluindo cha
 ## Vídeo de Demonstração
 🔗 Clique [AQUI](youtube.com) para ser redirecionado ao vídeo no YouTube.
 
-## 📋 Conclusões
-
-### Descobertas Chave:
-- **Dataset Robusto**: 35.000+ leituras distribuídas em 8 tipos de sensores fornecem base sólida para modelos de ML
-- **Estrutura Normalizada**: Modelo ER implementado garante integridade e facilita análises relacionais
-- **Realismo Operacional**: Valores respeitam faixas industriais reais, essencial para aplicação prática
-- **Anomalias Rotuladas**: 5% de dados anômalos permitem treino supervisionado para detecção de falhas
-- **Workflow Industrial**: Correlação completa desde sensores até ordens de manutenção
-
 ### Machine Learning:
 🔗 Clique [AQUI](https://youtu.be/2wflNHUXg9U) para ser redirecionado ao vídeo no YouTube.
 
@@ -82,6 +73,18 @@ Esses arquivos contêm a **estrutura completa do banco de dados**, incluindo cha
 - Acurácia Enganosa: A alta acurácia geral não reflete o desempenho real na detecção de alertas devido ao desbalanceamento.
 - Baixo Recall para Alertas: O modelo atual tem dificuldade em identificar a maioria dos alertas reais (baixo recall para a classe "Com Alerta"), resultando em muitos Falsos Negativos.
 - Importância das Features: O valor da leitura do sensor foi a feature mais importante para o modelo, seguido por features temporais. No entanto, o box plot sugere que o valor da leitura sozinho pode não ser suficiente para distinguir claramente os alertas.
+
+## 📋 Conclusões
+
+### Descobertas Chave:
+- **Dataset Robusto**: 35.000+ leituras distribuídas em 8 tipos de sensores fornecem base sólida para modelos de ML
+- **Estrutura Normalizada**: Modelo ER implementado garante integridade e facilita análises relacionais
+- **Realismo Operacional**: Valores respeitam faixas industriais reais, essencial para aplicação prática
+- **Anomalias Rotuladas**: 5% de dados anômalos permitem treino supervisionado para detecção de falhas
+- **Workflow Industrial**: Correlação completa desde sensores até ordens de manutenção
+
+### ML
+- Em resumo, o modelo inicial demonstra a viabilidade da abordagem, mas o baixo desempenho na identificação de alertas reais (devido principalmente ao desbalanceamento dos dados) indica a necessidade de explorar técnicas mais avançadas para melhorar a detecção proativa de problemas.
 
 ---
 
