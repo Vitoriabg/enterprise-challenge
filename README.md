@@ -74,7 +74,7 @@ Esses arquivos contêm a **estrutura completa do banco de dados**, incluindo cha
 - Engenharia de Features: A variável target ('Alerta') foi criada e features temporais (hora, dia da semana, mês) foram extraídas.
 - Pré-processamento: Variáveis categóricas foram codificadas (one-hot encoding) e valores ausentes foram tratados.
 - Modelagem: Um modelo Random Forest foi treinado para classificar as leituras de sensores como "Com Alerta" ou "Sem Alerta".
-- Avaliação: O modelo foi avaliado usando acurácia, relatório de classificação (precisão, recall, f1-score) e matriz de confusão.
+- Avaliação: O modelo foi avaliado usando acurácia, relatório de classificação (Precisão, Recall, F1-score) e matriz de confusão.
 
 ### Principais Insights:
 
