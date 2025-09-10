@@ -68,6 +68,21 @@ Esses arquivos contêm a **estrutura completa do banco de dados**, incluindo cha
 4. **Validação**: Métricas de performance e validação cruzada
 5. **Deploy**: Sistema de predição em tempo real
 
+### Metodologia:
+
+- Preparação dos Dados: Os dados de vários arquivos CSV foram carregados e armazenados em um banco de dados SQLite para facilitar a manipulação. Tabelas relevantes foram unidas para criar um conjunto de dados unificado.
+- Engenharia de Features: A variável target ('Alerta') foi criada e features temporais (hora, dia da semana, mês) foram extraídas.
+- Pré-processamento: Variáveis categóricas foram codificadas (one-hot encoding) e valores ausentes foram tratados.
+- Modelagem: Um modelo Random Forest foi treinado para classificar as leituras de sensores como "Com Alerta" ou "Sem Alerta".
+- Avaliação: O modelo foi avaliado usando acurácia, relatório de classificação (precisão, recall, f1-score) e matriz de confusão.
+
+### Principais Insights:
+
+- Desbalanceamento de Classes: Os dados apresentam um desbalanceamento significativo, com muito mais registros de "Sem Alerta" do que "Com Alerta". Isso impacta a interpretação das métricas.
+- Acurácia Enganosa: A alta acurácia geral não reflete o desempenho real na detecção de alertas devido ao desbalanceamento.
+- Baixo Recall para Alertas: O modelo atual tem dificuldade em identificar a maioria dos alertas reais (baixo recall para a classe "Com Alerta"), resultando em muitos Falsos Negativos.
+- Importância das Features: O valor da leitura do sensor foi a feature mais importante para o modelo, seguido por features temporais. No entanto, o box plot sugere que o valor da leitura sozinho pode não ser suficiente para distinguir claramente os alertas.
+
 ---
 
 **Challenge**: Hermes Reply - Digitalização Industrial  
