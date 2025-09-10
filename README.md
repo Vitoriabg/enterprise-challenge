@@ -59,7 +59,9 @@ Esses arquivos contêm a **estrutura completa do banco de dados**, incluindo cha
 - **Anomalias Rotuladas**: 5% de dados anômalos permitem treino supervisionado para detecção de falhas
 - **Workflow Industrial**: Correlação completa desde sensores até ordens de manutenção
 
-### Próximos Passos para ML:
+### Machine Learning:
+🔗 Clique [AQUI](https://youtu.be/2wflNHUXg9U) para ser redirecionado ao vídeo no YouTube.
+
 1. **Análise Exploratória**: Estatísticas descritivas e visualizações dos dados
 2. **Feature Engineering**: Criação de features temporais e agregações
 3. **Modelagem**: Implementação de algoritmos para cada caso de uso
